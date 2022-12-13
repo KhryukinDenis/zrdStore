@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: 'Cormorant Unicase', serif;
+  overflow-x: hidden;
+  opacity: 1;
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
+
+.contmobile {
+  display: none;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+.contmobile figure {
+  display: inline-flex;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+.contmobile figure a {
+  text-decoration: none;
+}
+
+.contmobile figure p {
+  font-size: 9px;
+  margin-top: -15%;
+}
+
+.container {
+  width: 100%;
+  display: block;
+  background-color: white;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  margin-top: -1%;
+  z-index: 1;
+}
+
+.container .mnu_list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.container .mnu_list li {
+  display: inline-block;
+  padding: 0 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.container .mnu_list li a {
+  text-align: justify;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 23px;
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+.container .mnu_list li a:hover {
+  color: #E5E3E4;
+}
+
+
+/* ADAPTIVE */
+
+@media only screen and (max-width: 1200px) {
+
+  .container .mnu_list li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+  .container {
+    padding-bottom: 10px;
+    margin-top: -2%;
+  }
+
+  .container .mnu_list li {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .container .mnu_list li a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+
+  .container {
+    margin-top: -4.2%;
+  }
+
+  .container .mnu_list li {
+    padding: 0 5px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .container .mnu_list li a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .container {
+    margin-top: -5%;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .container {
+    margin-top: -6%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    display: none;
+  }
+
+  .contmobile {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 390px) { }

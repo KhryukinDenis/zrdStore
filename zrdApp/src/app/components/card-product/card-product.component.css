@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+.img.responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: 'Cormorant Unicase', serif;
+  overflow-x: hidden;
+  opacity: 1;
+  background-color: #E5E3E4;
+}
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 55% auto;
+  background-color: white;
+  margin-top: 3%;
+  border-radius: 5px;
+}
+
+.container .gal {
+  grid-column: 1;
+  margin: 3%;
+}
+
+.gal img {
+  vertical-align: middle;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.gal .mainphoto img {
+  max-width: 70%;
+  border-radius: 5px;
+}
+
+.container .info {
+  grid-column: 2;
+}
+
+h2 a {
+  font-size: 22px;
+  font-family: 'Cormorant Unicase', serif;
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+  margin-left: 12%;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+.backstr {
+  display: none;
+  margin-left: 2%;
+}
+
+.info h4 {
+  font-size: 32px;
+  font-family: 'Cormorant Unicase', serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.price {
+  white-space: nowrap;
+}
+
+.pricereal {
+	white-space: normal;
+	display: inline-block;
+  vertical-align: baseline;
+  margin-right: 10px;
+  font-size: 28px;
+}
+
+.priceunreal {
+	white-space: normal;
+	display: inline-block;
+	vertical-align: baseline;
+  font-size: 24px;
+  text-decoration: line-through;
+  opacity: 50%;
+}
+
+p {
+  font-size: 24px;
+  font-family: 'Cormorant Unicase', serif;
+}
+
+.btn-size button {
+  width: 60px;
+  background: none;
+  border: 0;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 22px;
+  margin-bottom: 2%;
+}
+
+.btn-size button:hover {
+  font-weight: bold;
+}
+
+.btn-add button{
+  background: #E5E3E4;
+  background-image: url(http://127.0.0.1:9000/zrdbucket/shopping-cart%28btn-add%29.png);
+  background-repeat: no-repeat;
+  background-position: 95%;
+  outline: none;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 22px;
+  width: 280px;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  text-align: left;
+  text-indent: 5%;
+  margin-bottom: 2%;
+}
+
+.btn-add button:hover {
+  box-shadow: 0 0 5px gray;;
+}
+
+ul {
+  list-style-type: '- ';
+}
+
+li {
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 18px;
+}
+
+
+/* ADAPTIVE */
+
+@media only screen and (max-width: 1450px) {
+  .container {
+    margin-top: 3.5%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin-top: 4.2%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    grid-template-columns: 60% auto;
+    margin-top: 5.2%;
+  }
+
+  .btn-size button {
+    width: 50px;
+    font-size: 20px;
+  }
+
+  h2 a {
+    display: none;
+  }
+
+  .backstr {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    grid-template-columns: auto 0%;
+    grid-template-rows: 5% auto 450px;
+    margin-top: 3%;
+  }
+
+  .container .gal {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+  }
+
+  .container .info {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .info h4 {
+    text-align: center;
+  }
+
+  .price {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .btn-size {
+    text-align: center;
+  }
+
+  .btn-add {
+    text-align: center;
+  }
+
+  li {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .gal .mainphoto img {
+    max-width: 65%;
+  }
+
+  .container {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 390px) { }
