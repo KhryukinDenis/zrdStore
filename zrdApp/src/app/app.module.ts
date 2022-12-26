@@ -1,6 +1,7 @@
+import { BaseService } from './services/base.service';
 import { NgModule, Component } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {Routes, RouterModule} from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,12 +12,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SpecialMenuComponent } from './components/special-menu/special-menu.component';
+import { HttpClientModule } from '@angular/common/http';
 
-const appRouters: Routes =[
-  { path: '', component: HomepageComponent },
-  { path: 'card-product', component: CardProductComponent },
-  { path: 'cart-shoping', component: CartShopingComponent }
-];
 
 @NgModule({
   declarations: [
@@ -27,14 +24,15 @@ const appRouters: Routes =[
     HeaderComponent,
     NavComponent,
     FooterComponent,
-    SpecialMenuComponent
+    SpecialMenuComponent,
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRouters),
-    AppRoutingModule
+    RouterModule,
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [BaseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

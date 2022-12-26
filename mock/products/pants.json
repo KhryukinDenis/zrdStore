@@ -1,0 +1,727 @@
+[
+    {
+		"id": 0,
+		"type": "pants",
+		"name": "Pants AK ZRD basic",
+		"real_price": 3399,
+		"unreal_price": 4100,
+		"current_image": "http://127.0.0.1:9000/pants/AK_ZRD_basic_red-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/AK_ZRD_basic_red-transformed.png",
+			"http://127.0.0.1:9000/pants/AK_ZRD_basic_black-transformed.png"
+		],
+		"current_color": "red",
+		"colors": [
+			"red",
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Трикотажные штаны с лампасами AK-47 из первой части коллекции 'ZRD'", 
+			"Мы немного доработали классический вариант спортивных брюк и добавили", 
+			"2 задних прорезных кармана, гульфик, разъем под ремень, а так же укоротили немного длину",
+			"Все это мы украсили двойными фирменными лампасами ZRD", 
+			"Для всего прочего для пошива взяли мягкий и приятный на ощупь футер с начесом"
+		]
+	},
+
+	{
+		"id": 1,
+		"type": "pants",
+		"name": "Pants b/w ZRD basic",
+		"real_price": 3399,
+		"unreal_price": 4100,
+		"current_image": "http://127.0.0.1:9000/pants/bwZRDbasic_lightgray-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/bwZRDbasic_lightgray-transformed.png",
+			"http://127.0.0.1:9000/pants/bwZRDbasic_black-transformed.png"
+		],
+		"current_color": "lightgray",
+		"colors": [
+			"lightgray",
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Трикотажные штаны с двойными лампасами Pants b/w basic из первой части коллекции 'ZRD'", 
+			"Мы немного доработали классический вариант спортивных брюк и добавили", 
+			"2 задних прорезных кармана, гульфик, разъем под ремень, а так же укоротили немного длину",
+			"Все это мы украсили двойными фирменными лампасами ZRD", 
+			"Для всего прочего для пошива взяли мягкий и приятный на ощупь футер с начесом"
+		]
+	},
+
+	{
+		"id": 2,
+		"type": "pants",
+		"name": "Трико Refl Summer",
+		"real_price": 3399,
+		"unreal_price": 4100,
+		"current_image": "http://127.0.0.1:9000/pants/Triko_ReflSummer_black-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/Triko_ReflSummer_black-transformed.png",
+			"http://127.0.0.1:9000/pants/Triko_ReflSummer_lightgray-transformed.png",
+			"http://127.0.0.1:9000/pants/Triko_ReflSummer_beige-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black",
+			"lightgray",
+			"tomato"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Ну просто пушка", 
+			"Базовая модель трико", 
+			"Свободный крой",
+			"Рефлективные вставки", 
+			"Футер 3-х нитка без начеса"
+		]
+	},
+
+	{
+		"id": 3,
+		"type": "pants",
+		"name": "Трико Refl",
+		"real_price": 3399,
+		"unreal_price": 4100,
+		"current_image": "http://127.0.0.1:9000/pants/TrikoRelf_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/TrikoRelf_beige-transformed.png",
+			"http://127.0.0.1:9000/pants/TrikoRelf_black-transformed.png",
+			"http://127.0.0.1:9000/pants/TrikoRelf_lightgray-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"black",
+			"lightgray"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Ткань: футер с начёсом", 
+			"Базовая модель трико", 
+			"Свободный крой",
+			"Рефлективные вставки", 
+			"2 кармана спереди, 1 сзади"
+		]
+	},
+
+	{
+		"id": 4,
+		"type": "pants",
+		"name": "Chinos Classic Velvet",
+		"real_price": 3899,
+		"unreal_price": 4350,
+		"current_image": "http://127.0.0.1:9000/pants/ChinosClassicVelvet_violet-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ChinosClassicVelvet_violet-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosClassicVelvet_beige-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosClassicVelvet_black-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosClassicVelvet_gray-transformed.png"
+		],
+		"current_color": "violet",
+		"colors": [
+			"violet",
+			"beige",
+			"black",
+			"gray"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Свободный крой", 
+			"Укороченный низ", 
+			"2 кармана спереди",
+			"2 кармана сзади", 
+			"Ткань вельвет"
+		]
+	},
+
+	{
+		"id": 5,
+		"type": "pants",
+		"name": "Chinos Classic",
+		"real_price": 3399,
+		"unreal_price": 4000,
+		"current_image": "http://127.0.0.1:9000/pants/ChinosClassic_black-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ChinosClassic_black-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosClassic_beige-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosClassic_brown-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosClassic_lightgray-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black",
+			"beige",
+			"brown",
+			"lightgray"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Свободный крой", 
+			"Укороченный низ", 
+			"2 кармана спереди",
+			"2 кармана сзади", 
+			"Легкий и приятный хлопок с эластаном"
+		]
+	},
+
+	{
+		"id": 6,
+		"type": "pants",
+		"name": "Chinos ZRD GS",
+		"real_price": 3199,
+		"unreal_price": 4200,
+		"current_image": "http://127.0.0.1:9000/pants/ChinosZRDGS_blue-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ChinosZRDGS_blue-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosZRDGS_black-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosZRDGS_beige-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosZRDGS_beige2-transformed.png"
+		],
+		"current_color": "navy",
+		"colors": [
+			"navy",
+			"black",
+			"beige",
+			"chocolate"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Чиносы ZRD GS", 
+			"4 кармана", 
+			"Легкий и приятный материал",
+			"Состав: хлопок + эластан", 
+			"По бокам лампасы с балаклавой"
+		]
+	},
+
+	{
+		"id": 7,
+		"type": "pants",
+		"name": "Чиносы 'ZRD' АК-47",
+		"real_price": 3199,
+		"unreal_price": 4200,
+		"current_image": "http://127.0.0.1:9000/pants/ChinosZRD_AK47_chocolate-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ChinosZRD_AK47_chocolate-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosZRD_AK47_beige-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosZRD_AK47_blue-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosZRD_AK47_black-transformed.png"
+		],
+		"current_color": "chocolate",
+		"colors": [
+			"chocolate",
+			"beige",
+			"navy",
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Чиносы ZRD AK-47", 
+			"4 кармана", 
+			"Легкий и приятный материал",
+			"Состав: хлопок + эластан", 
+			"По бокам лампасы с автоматами"
+		]
+	},
+
+	{
+		"id": 8,
+		"type": "pants",
+		"name": "Чиносы ZRD basic",
+		"real_price": 3199,
+		"unreal_price": 4200,
+		"current_image": "http://127.0.0.1:9000/pants/ChinosZRDbasic_blue-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ChinosZRDbasic_blue-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosZRDbasic_black-transformed.png"
+		],
+		"current_color": "navy",
+		"colors": [
+			"navy",
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Чиносы ZRD basic", 
+			"4 кармана", 
+			"Легкий и приятный материал",
+			"Состав: хлопок + эластан", 
+			"По бокам фирменные двойные лампасы Zaryad"
+		]
+	},
+
+	{
+		"id": 9,
+		"type": "pants",
+		"name": "Чиносы ZRD ROPE",
+		"real_price": 3300,
+		"unreal_price": 4500,
+		"current_image": "http://127.0.0.1:9000/pants/ChinosZRD_ROPE_black-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ChinosZRD_ROPE_black-transformed.png",
+			"http://127.0.0.1:9000/pants/ChinosZRD_ROPE_chocolate-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black",
+			"chocolate"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Чиносы из коллекции 'ZRD Summer'", 
+			"Свободный крой", 
+			"Ремень с мягкой стропой",
+			"На ней же расположен фирменный логотип", 
+			"2 накладных объемных кармана"
+		]
+	},
+
+	{
+		"id": 10,
+		"type": "pants",
+		"name": "Pants POLOSA",
+		"real_price": 3899,
+		"unreal_price": 4550,
+		"current_image": "http://127.0.0.1:9000/pants/PaintsPOLOSA_kakao-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/PaintsPOLOSA_kakao-transformed.png",
+			"http://127.0.0.1:9000/pants/PaintsPOLOSA_black-transformed.png",
+			"http://127.0.0.1:9000/pants/PaintsPOLOSA_beige-transformed.png",
+			"http://127.0.0.1:9000/pants/PaintsPOLOSA_blue-transformed.png",
+			"http://127.0.0.1:9000/pants/PaintsPOLOSA_lightgray-transformed.png"
+		],
+		"current_color": "rosybrown",
+		"colors": [
+			"rosybrown",
+			"black",
+			"darksalmon",
+			"navy",
+			"lightgray"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Спортивные трико свободного кроя из футера с начесом", 
+			"Прямой крой, зауженный к низу", 
+			"По бокам хлопковый кант",
+			"На правой стороне вышивка", 
+			"Состав: 80% хлопок 20% полиэстер"
+		]
+	},
+
+	{
+		"id": 11,
+		"type": "pants",
+		"name": "Штаны ZRD Shift",
+		"real_price": 3699,
+		"unreal_price": 4350,
+		"current_image": "http://127.0.0.1:9000/pants/ZRD_Shift_black-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ZRD_Shift_black-transformed.png",
+			"http://127.0.0.1:9000/pants/ZRD_Shift_khaki-transformed.png",
+			"http://127.0.0.1:9000/pants/ZRD_Shift_blue-transformed.png",
+			"http://127.0.0.1:9000/pants/ZRD_Shift_purple-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black",
+			"seagreen",
+			"blue",
+			"purple"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Функциональные штаны из ткани rip-stop в новой коллекции ZRD", 
+			"Крайне износостойкая ткань", 
+			"Модель имеет 7 карманов",
+			"На бедрах имеются ремни для регулировки ширины каждой штанины", 
+			"Нижняя часть штанины на манжетах"
+		]
+	},
+
+	{
+		"id": 12,
+		"type": "pants",
+		"name": "Штаны Kick",
+		"real_price": 3699,
+		"unreal_price": 4350,
+		"current_image": "http://127.0.0.1:9000/pants/Kick_navy-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/Kick_navy-transformed.png",
+			"http://127.0.0.1:9000/pants/Kick_black-transformed.png",
+			"http://127.0.0.1:9000/pants/Kick_blue-transformed.png",
+			"http://127.0.0.1:9000/pants/Kick_khaki-transformed.png"
+		],
+		"current_color": "navy",
+		"colors": [
+			"navy",
+			"black",
+			"blue",
+			"brown"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Зауженный крой", 
+			"Материал rip-stop", 
+			"Имеет 4 кармана спереди",
+			"Нижняя часть штанины на манжетах", 
+			"На левом кармане фирменный логотип"
+		]
+	},
+
+	{
+		"id": 13,
+		"type": "pants",
+		"name": "Штаны ZRD THN",
+		"real_price": 3299,
+		"unreal_price": 4800,
+		"current_image": "http://127.0.0.1:9000/pants/ZRD_THN_black-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ZRD_THN_black-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Функциональные штаны в коллекции ZRD", 
+			"Ткань: Хлопок 98% + 2% эластан", 
+			"Благодаря содержанию эластана ткань тянется и придает максимальный комфорт в носке",
+			"Пояс регулируется фастексом на магните", 
+			"Модель имеет 6 карманов: 4 спереди, 2 сзади"
+		]
+	},
+
+	{
+		"id": 14,
+		"type": "pants",
+		"name": "Штаны ZRD Pump",
+		"real_price": 3299,
+		"unreal_price": 3880,
+		"current_image": "http://127.0.0.1:9000/pants/ZRD_Pump_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ZRD_Pump_beige-transformed.png",
+			"http://127.0.0.1:9000/pants/ZRD_Pump_black-transformed.png",
+			"http://127.0.0.1:9000/pants/ZRD_Pump_chocolate-transformed.png",
+			"http://127.0.0.1:9000/pants/ZRD_Pump_navy-transformed.png",
+			"http://127.0.0.1:9000/pants/ZRD_Pump_brown-transformed.png"
+		],
+		"current_color": "beige",
+		"colors": [
+			"burlywood",
+			"black",
+			"chocolate",
+			"navy",
+			"brown"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Зауженный крой", 
+			"Регулируемый пояс", 
+			"Манжеты на резинке",
+			"5 карманов", 
+			"Состав: 97 хлопок + 3 % эластан"
+		]
+	},
+
+	{
+		"id": 15,
+		"type": "pants",
+		"name": "Штаны ZRD Nylon",
+		"real_price": 3899,
+		"unreal_price": 4550,
+		"current_image": "http://127.0.0.1:9000/pants/ZRD_Nylon_black-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ZRD_Nylon_black-transformed.png",
+			"http://127.0.0.1:9000/pants/ZRD_Nylon_khaki-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black",
+			"brown"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Штаны свободного кроя из легкого нейлона с добавлением эластана", 
+			"Обладает ветрозащитными и влагостойкими свойствами", 
+			"Модель имеет 9 карманов",
+			"Вместо ремня магнитный фастекс", 
+			"Низ регулируется резинкой с фиксатором"
+		]
+	},
+
+	{
+		"id": 16,
+		"type": "pants",
+		"name": "Шорты ZRD tactical",
+		"real_price": 2999,
+		"unreal_price": 3520,
+		"current_image": "http://127.0.0.1:9000/pants/ShortsZRD_tactical_black-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ShortsZRD_tactical_black-transformed.png",
+			"http://127.0.0.1:9000/pants/ShortsZRD_tactical_chocolate-transformed.png",
+			"http://127.0.0.1:9000/pants/ShortsZRD_tactical_brown-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black",
+			"chocolate",
+			"brown"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Свободный крой", 
+			"Модель сделана из хлопка с эластаном", 
+			"Шорты имеют 10 карманов",
+			"Слева расположен фирменный логотип", 
+			"Отличный выбор в жаркую погоду"
+		]
+	},
+
+	{
+		"id": 17,
+		"type": "pants",
+		"name": "Шорты ZRD Rope strap",
+		"real_price": 2999,
+		"unreal_price": 3499,
+		"current_image": "http://127.0.0.1:9000/pants/ShortsZRD_RopeStrap_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ShortsZRD_RopeStrap_beige-transformed.png",
+			"http://127.0.0.1:9000/pants/ShortsZRD_RopeStrap_black-transformed.png",
+			"http://127.0.0.1:9000/pants/ShortsZRD_RopeStrap_brown-transformed.png",
+			"http://127.0.0.1:9000/pants/ShortsZRD_RopeStrap_chocolate-transformed.png",
+			"http://127.0.0.1:9000/pants/ShortsZRD_RopeStrap_navy-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"black",
+			"brown",
+			"chocolate",
+			"navy"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Шорты из коллекции 'ZRD Summer'", 
+			"Прямой крой", 
+			"Модель сделана из хлопка с содержанием эластана",
+			"Боковые объемные карманы", 
+			"Слева расположен фирменный логотип"
+		]
+	},
+
+	{
+		"id": 18,
+		"type": "pants",
+		"name": "Шорты ZRD lump",
+		"real_price": 2800,
+		"unreal_price": 3299,
+		"current_image": "http://127.0.0.1:9000/pants/ShortsZRD_lamp_black-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ShortsZRD_lamp_black-transformed.png",
+			"http://127.0.0.1:9000/pants/ShortsZRD_lamp_beige-transformed.png",
+			"http://127.0.0.1:9000/pants/ShortsZRD_lamp_brown-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black",
+			"beige",
+			"brown"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Легкие и приятные шорты", 
+			"Модель имеет 4 кармана", 
+			"По бокам фирменные лампасы",
+			"Супер легкий материал", 
+			"Состав: 97% хлопок + 3% эластан"
+		]
+	},
+
+	{
+		"id": 19,
+		"type": "pants",
+		"name": "Шорты ZRD",
+		"real_price": 2799,
+		"unreal_price": 3499,
+		"current_image": "http://127.0.0.1:9000/pants/ShortsZRD-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/ShortsZRD-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Имеет 5 карманов, 4 спереди, один прорезной сзади", 
+			"Супер легкий материал", 
+			"Состав: 97% хлопок + 3% эластан",
+			"На одном из карманов фирменный логотип", 
+			"Универсальный выбор под любую футболку"
+		]
+	}
+]

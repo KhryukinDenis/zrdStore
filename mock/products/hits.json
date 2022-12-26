@@ -1,0 +1,443 @@
+[
+	{
+		"id": 0,
+		"type": "hits",
+		"name": "Зимняя куртка 'Puffy Tag'",
+		"real_price": 8800,
+		"unreal_price": 10300,
+		"current_image": "http://127.0.0.1:9000/jackets/puffyTag_white-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/puffyTag_white-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffyTag_black-transformed.png"
+		],
+		"current_color": "white",
+		"colors": [
+			"white",
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"В модели использовать бельгийский утеплитель Изософт 300г/м2", 
+			"Куртка имеет 2 внутренних и два наружных кармана", 
+			"Рекомендованный температурный режим до -20°C",
+			"Фирменный логотип в виде тега выполнен шелкографией",
+			"Материал трёхслойная мембрана с водонепроницаемостью 5000 мм и паропроницаемостью 5000 г/м2"
+		]
+	},
+
+	{
+		"id": 1,
+		"type": "hits",
+		"name": "Parka 'ZRD' two basic",
+		"real_price": 9600,
+		"unreal_price": 11300,
+		"current_image": "http://127.0.0.1:9000/jackets/ParkaZRDtwoBasic_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/ParkaZRDtwoBasic_beige-transformed.png",
+			"http://127.0.0.1:9000/jackets/ParkaZRDtwoBasic_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/ParkaZRDtwoBasic_khaki-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"lightblue",
+			"brown"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Куртка выполнена из мягкой мембранной ткани и высокотехнологичного утеплителя Siberia", 
+			"Совершенно новая и самая яркая модель Зимы", 
+			"Модель рассчитана до -25°C температурного режима",
+			"Куртка имеет двойную молнию,что придаст комфортность при использовании",
+			"На левом рукаве пришит обновленный логотип"
+		]
+	},
+
+	{
+		"id": 2,
+		"type": "hits",
+		"name": "Трико Refl",
+		"real_price": 3399,
+		"unreal_price": 4100,
+		"current_image": "http://127.0.0.1:9000/pants/TrikoRelf_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/TrikoRelf_beige-transformed.png",
+			"http://127.0.0.1:9000/pants/TrikoRelf_black-transformed.png",
+			"http://127.0.0.1:9000/pants/TrikoRelf_lightgray-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"black",
+			"lightgray"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Ткань: футер с начёсом", 
+			"Базовая модель трико", 
+			"Свободный крой",
+			"Рефлективные вставки", 
+			"2 кармана спереди, 1 сзади"
+		]
+	},
+
+	{
+		"id": 3,
+		"type": "hits",
+		"name": "Paints POLOSA",
+		"real_price": 3899,
+		"unreal_price": 4550,
+		"current_image": "http://127.0.0.1:9000/pants/PaintsPOLOSA_kakao-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/pants/PaintsPOLOSA_kakao-transformed.png",
+			"http://127.0.0.1:9000/pants/PaintsPOLOSA_black-transformed.png",
+			"http://127.0.0.1:9000/pants/PaintsPOLOSA_beige-transformed.png",
+			"http://127.0.0.1:9000/pants/PaintsPOLOSA_blue-transformed.png",
+			"http://127.0.0.1:9000/pants/PaintsPOLOSA_lightgray-transformed.png"
+		],
+		"current_color": "rosybrown",
+		"colors": [
+			"rosybrown",
+			"black",
+			"darksalmon",
+			"navy",
+			"lightgray"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Спортивные трико свободного кроя из футера с начесом", 
+			"Прямой крой, зауженный к низу", 
+			"По бокам хлопковый кант",
+			"На правой стороне вышивка", 
+			"Состав: 80% хлопок 20% полиэстер"
+		]
+	},
+
+	{
+		"id": 4,
+		"type": "hits",
+		"name": "Костюм POLOSA",
+		"real_price": 6999,
+		"unreal_price": 8200,
+		"current_image": "http://127.0.0.1:9000/suits/CostumePolosa_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/suits/CostumePolosa_beige-transformed.png",
+			"http://127.0.0.1:9000/suits/CostumePolosa_black-transformed.png",
+            "http://127.0.0.1:9000/suits/CostumePolosa_blue-transformed.png",
+            "http://127.0.0.1:9000/suits/CostumePolosa_gray-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"black",
+            "navy",
+            "lightgray"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Спортивный костюм свободного кроя из футера с начесом", 
+			"По бокам хлопковый кант", 
+			"Принт-вышивка",
+			"Плотность: 350 гр", 
+			"Состав: 80% хлопок 20% полиэстер"
+		]
+	},
+
+	{
+		"id": 5,
+		"type": "hits",
+		"name": "Sweater ZRD Blow",
+		"real_price": 4499,
+		"unreal_price": 5199,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/SweaterZRD_Blow_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/SweaterZRD_Blow_beige-transformed.png"
+		],
+		"current_color": "beige",
+		"colors": [
+			"beige"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Вязаный оверсайз свитер", 
+			"Состав: 60% хлопок 40% акрил", 
+			"На груди вышит логотип бренда",
+			"Согреет холодной зимой", 
+			"Теплее только от бабули"
+		]
+	},
+
+	{
+		"id": 6,
+		"type": "hits",
+		"name": "Sweatshirt POLOSA",
+		"real_price": 3699,
+		"unreal_price": 4350,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/Sweatshirt_POLOSA_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/Sweatshirt_POLOSA_beige-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/Sweatshirt_POLOSA_black-transformed.png",
+            "http://127.0.0.1:9000/sweatshirts/Sweatshirt_POLOSA_blue-transformed.png",
+            "http://127.0.0.1:9000/sweatshirts/Sweatshirt_POLOSA_gray-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"black",
+            "navy",
+            "lightgray"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Оверсайз худи с заниженной линией плеча из футера с начесом", 
+			"Плотность: 350 гр", 
+			"Состав: 80% хлопок 20% полиэстер",
+			"На груди вышивка", 
+			"По бокам полосы из хлопкового канта"
+		]
+	},
+
+	{
+		"id": 7,
+		"type": "hits",
+		"name": "Hoodie ZRD Tag",
+		"real_price": 3299,
+		"unreal_price": 4200,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/HoodieZRD_Tag_purple-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Tag_purple-transformed.png"
+		],
+		"current_color": "purple",
+		"colors": [
+			"purple"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Свободный крой", 
+			"Плотность: 330 гр", 
+			"Сделано из премиального Футера 3х-нитки с начесом",
+			"На груди эксклюзивный принт", 
+			"Печать шелкография"
+		]
+	},
+
+	{
+		"id": 8,
+		"type": "hits",
+		"name": "Hoodie ZRD Scope",
+		"real_price": 3499,
+		"unreal_price": 4100,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_red-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_red-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_yellow-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_lightgray-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_purple-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_black-transformed.png"
+		],
+		"current_color": "red",
+		"colors": [
+			"red",
+			"yellow",
+            "lightgray",
+            "purple",
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Оверсайз худи с заниженной линией плеча из легкого футера", 
+			"Плотность: 330 гр", 
+			"Состав: 80% хлопок 20% полиэстер",
+			"На груди принт ZRD Conceptual Brand", 
+			"На правом рукаве жаккардовая нашивка"
+		]
+	},
+
+	{
+		"id": 9,
+		"type": "hits",
+		"name": "Зимняя куртка 'Puffy'",
+		"real_price": 8300,
+		"unreal_price": 9700,
+		"current_image": "http://127.0.0.1:9000/jackets/puffy_black-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/puffy_black-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffy_violet-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffy_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffy_gray-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffy_red-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffy_yellow-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black",
+			"purple",
+			"navy",
+			"lightgray",
+			"darkred",
+			"orange"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Ты тоже устал чувствовать себя неуклюже в длинных зимних парках, бро?", 
+			"Получай! Короткая куртка ZRD Puffy – твой невероятный айтем этой зимой!", 
+			"Трёхслойная мембрана с водонепроницаемостью 5000 мм и паропроницаемостью 5000 г/м2, также утеплитель Siberia в основе изделия обеспечат комфортное движение и лайки от твоего окружения",
+			"Смещённая вниз линия плеча + oversize крой", 
+			"Рекомендованный температурный режим до -20°C"
+		]
+	},
+
+	{
+		"id": 10,
+		"type": "hits",
+		"name": "Шапка ZRD Tag",
+		"real_price": 1200,
+		"unreal_price": 1400,
+		"current_image": "http://127.0.0.1:9000/accessories/ShapkaZRD_Tag_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/accessories/ShapkaZRD_Tag_beige-transformed.png",
+			"http://127.0.0.1:9000/accessories/ShapkaZRD_Tag_black-transformed.png",
+			"http://127.0.0.1:9000/accessories/ShapkaZRD_Tag_lightgray-transformed.png",
+			"http://127.0.0.1:9000/accessories/ShapkaZRD_Tag_red-transformed.png"
+		],
+		"current_color": "beige",
+		"colors": [
+			"beige",
+			"black",
+            "lightgray",
+			"darkred"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Классический крой", 
+			"Cостав: 60% акрил + 40% шерсть", 
+			"Cогреет холодной зимой",
+			"Фирменный логотип", 
+			"Отлично сочетается с остальными вещами коллекции"
+		]
+	},
+
+	{
+		"id": 11,
+		"type": "hits",
+		"name": "Балаклава ZRD",
+		"real_price": 1450,
+		"unreal_price": 1705,
+		"current_image": "http://127.0.0.1:9000/accessories/BalaclavaZRD_blue-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/accessories/BalaclavaZRD_blue-transformed.png",
+			"http://127.0.0.1:9000/accessories/BalaclavaZRD_black-transformed.png",
+			"http://127.0.0.1:9000/accessories/BalaclavaZRD_purple-transformed.png"
+		],
+		"current_color": "dodgerblue",
+		"colors": [
+			"dodgerblue",
+			"black",
+            "purple"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Материал флис", 
+			"По бокам два фиксатора для утяжки", 
+			"Cогреет холодной зимой",
+			"Посередине вышит логотип ZRD", 
+			"Отлично сочетается с остальными вещами бренда"
+		]
+	}
+]

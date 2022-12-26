@@ -1,0 +1,279 @@
+[
+    {
+		"id": 0,
+		"type": "sweatshirts",
+		"name": "Sweatshirt POLOSA",
+		"real_price": 3699,
+		"unreal_price": 4350,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/Sweatshirt_POLOSA_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/Sweatshirt_POLOSA_beige-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/Sweatshirt_POLOSA_black-transformed.png",
+            "http://127.0.0.1:9000/sweatshirts/Sweatshirt_POLOSA_blue-transformed.png",
+            "http://127.0.0.1:9000/sweatshirts/Sweatshirt_POLOSA_gray-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"black",
+            "navy",
+            "lightgray"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Оверсайз худи с заниженной линией плеча из футера с начесом", 
+			"Плотность: 350 гр", 
+			"Состав: 80% хлопок 20% полиэстер",
+			"На груди вышивка", 
+			"По бокам полосы из хлопкового канта"
+		]
+	},
+
+	{
+		"id": 1,
+		"type": "sweatshirts",
+		"name": "Hoodie ZRD Scope",
+		"real_price": 3499,
+		"unreal_price": 4100,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_red-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_red-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_yellow-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_lightgray-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_purple-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Scope_black-transformed.png"
+		],
+		"current_color": "red",
+		"colors": [
+			"red",
+			"yellow",
+            "lightgray",
+            "purple",
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Оверсайз худи с заниженной линией плеча из легкого футера", 
+			"Плотность: 330 гр", 
+			"Состав: 80% хлопок 20% полиэстер",
+			"На груди принт ZRD Conceptual Brand", 
+			"На правом рукаве жаккардовая нашивка"
+		]
+	},
+
+	{
+		"id": 2,
+		"type": "sweatshirts",
+		"name": "Hoodie ZRD Tag",
+		"real_price": 3299,
+		"unreal_price": 4200,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/HoodieZRD_Tag_purple-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Tag_purple-transformed.png"
+		],
+		"current_color": "purple",
+		"colors": [
+			"purple"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Свободный крой", 
+			"Плотность: 330 гр", 
+			"Сделано из премиального Футера 3х-нитки с начесом",
+			"На груди эксклюзивный принт", 
+			"Печать шелкография"
+		]
+	},
+
+	{
+		"id": 3,
+		"type": "sweatshirts",
+		"name": "Hoodie-Zip Mineral",
+		"real_price": 3999,
+		"unreal_price": 4700,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/HoodieZipMineral_lightgray-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/HoodieZipMineral_lightgray-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/HoodieZipMineral_purple-transformed.png"
+		],
+		"current_color": "lightgray",
+		"colors": [
+			"lightgray",
+			"purple"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Зип худи свободного кроя из футера 3х нитки", 
+			"Плотность: 350 гр", 
+			"Состав: 80% хлопок 20% полиэстер",
+			"Металлическая молния", 
+			"На груди принт ZRD Conceptual Brand"
+		]
+	},
+
+	{
+		"id": 4,
+		"type": "sweatshirts",
+		"name": "Hoodie ZRD Bandit-1",
+		"real_price": 3299,
+		"unreal_price": 3880,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/HoodieZRD_Bandit1_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Bandit1_beige-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/HoodieZRD_Bandit1_black-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Худи из коллекции 'ZRD Summer'", 
+			"Свободный крой", 
+			"Вышивка на груди - логотип",
+			"Вышивка на спине - балаклава", 
+			"Сделано из премиального футера 3х-нитки с начесом"
+		]
+	},
+
+	{
+		"id": 5,
+		"type": "sweatshirts",
+		"name": "Long Sleeve Weather",
+		"real_price": 3399,
+		"unreal_price": 3990,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/LongSleeveWeather_khaki-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/LongSleeveWeather_khaki-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/LongSleeveWeather_black-transformed.png"
+		],
+		"current_color": "darksalmon",
+		"colors": [
+			"darksalmon",
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Оверсайз крой с заниженной линией плеча", 
+			"На рукавах и спине изображен первый логотип Zaryad в виде молний", 
+			"Сделана из плотного футера френч терри плотность 240 гр",
+			"Полотно особой высокопористой, петлистой, воздушной структуры из чистейшего хлопка", 
+			"Состав: 95 % хлопок 5% эластан"
+		]
+	},
+
+	{
+		"id": 6,
+		"type": "sweatshirts",
+		"name": "Sweatshirt Mineral",
+		"real_price": 3699,
+		"unreal_price": 4350,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/SweatshirtMineral_blue-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/SweatshirtMineral_blue-transformed.png",
+			"http://127.0.0.1:9000/sweatshirts/SweatshirtMineral_beige-transformed.png"
+		],
+		"current_color": "blue",
+		"colors": [
+			"blue",
+			"beige"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Оверсайз свитшот с заниженной линией плеча из футера тай дай", 
+			"Плотность: 350 гр", 
+			"Состав: 80% хлопок 20% полиэстер",
+			"На груди принт ZRD Conceptual Brand", 
+			"Слева внизу пришит жаккардовый логотип"
+		]
+	},
+
+	{
+		"id": 7,
+		"type": "sweatshirts",
+		"name": "Sweater ZRD Blow",
+		"real_price": 4499,
+		"unreal_price": 5199,
+		"current_image": "http://127.0.0.1:9000/sweatshirts/SweaterZRD_Blow_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/sweatshirts/SweaterZRD_Blow_beige-transformed.png"
+		],
+		"current_color": "beige",
+		"colors": [
+			"beige"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Вязаный оверсайз свитер", 
+			"Состав: 60% хлопок 40% акрил", 
+			"На груди вышит логотип бренда",
+			"Согреет холодной зимой", 
+			"Теплее только от бабули"
+		]
+	}
+]

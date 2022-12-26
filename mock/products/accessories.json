@@ -1,0 +1,208 @@
+[
+    {
+		"id": 0,
+		"type": "accessories",
+		"name": "Панама ZRD Tag",
+		"real_price": 1199,
+		"unreal_price": 1300,
+		"current_image": "http://127.0.0.1:9000/accessories/PanamaZRD-Tag_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/accessories/PanamaZRD-Tag_beige-transformed.png",
+			"http://127.0.0.1:9000/accessories/PanamaZRD-Tag_black-transformed.png",
+            "http://127.0.0.1:9000/accessories/PanamaZRD-Tag_violet-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"black",
+            "violet"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Свободная панама из хлопка", 
+			"Посередине вышитый лого", 
+			"Комфортная посадка и приятный вид",
+			"Отличный головной убор в жаркий летний день", 
+			"Отлично подойдет для поездки на море"
+		]
+	},
+
+	{
+		"id": 1,
+		"type": "accessories",
+		"name": "Шапка ZRD Tag",
+		"real_price": 1200,
+		"unreal_price": 1400,
+		"current_image": "http://127.0.0.1:9000/accessories/ShapkaZRD_Tag_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/accessories/ShapkaZRD_Tag_beige-transformed.png",
+			"http://127.0.0.1:9000/accessories/ShapkaZRD_Tag_black-transformed.png",
+			"http://127.0.0.1:9000/accessories/ShapkaZRD_Tag_lightgray-transformed.png",
+			"http://127.0.0.1:9000/accessories/ShapkaZRD_Tag_red-transformed.png"
+		],
+		"current_color": "beige",
+		"colors": [
+			"beige",
+			"black",
+            "lightgray",
+			"darkred"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Классический крой", 
+			"Cостав: 60% акрил + 40% шерсть", 
+			"Cогреет холодной зимой",
+			"Фирменный логотип", 
+			"Отлично сочетается с остальными вещами коллекции"
+		]
+	},
+
+	{
+		"id": 2,
+		"type": "accessories",
+		"name": "Балаклава ZRD",
+		"real_price": 1450,
+		"unreal_price": 1705,
+		"current_image": "http://127.0.0.1:9000/accessories/BalaclavaZRD_blue-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/accessories/BalaclavaZRD_blue-transformed.png",
+			"http://127.0.0.1:9000/accessories/BalaclavaZRD_black-transformed.png",
+			"http://127.0.0.1:9000/accessories/BalaclavaZRD_purple-transformed.png"
+		],
+		"current_color": "dodgerblue",
+		"colors": [
+			"dodgerblue",
+			"black",
+            "purple"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Материал флис", 
+			"По бокам два фиксатора для утяжки", 
+			"Cогреет холодной зимой",
+			"Посередине вышит логотип ZRD", 
+			"Отлично сочетается с остальными вещами бренда"
+		]
+	},
+
+	{
+		"id": 3,
+		"type": "accessories",
+		"name": "Носки ZRD Tag",
+		"real_price": 290,
+		"unreal_price": 400,
+		"current_image": "http://127.0.0.1:9000/accessories/SocksZRD_Tag-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/accessories/SocksZRD_Tag-transformed.png"
+		],
+		"current_color": "white",
+		"colors": [
+			"white"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Носки ZRD TAG", 
+			"Состав: 80% хлопок, 15% полиамид, 5% эластан", 
+			"Длина резинки: 15 см",
+			"Размеры: 41-44", 
+			"Отлично сочетается с остальными вещами бренда"
+		]
+	},
+
+	{
+		"id": 4,
+		"type": "accessories",
+		"name": "Носки ZRD Fire",
+		"real_price": 290,
+		"unreal_price": 400,
+		"current_image": "http://127.0.0.1:9000/accessories/SocksZRD_Fire-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/accessories/SocksZRD_Fire-transformed.png"
+		],
+		"current_color": "white",
+		"colors": [
+			"white"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Носки ZRD Fire", 
+			"Состав: 80% хлопок, 15% полиамид, 5% эластан", 
+			"Длина резинки: 15 см",
+			"Размеры: 41-44", 
+			"Отлично сочетается с остальными вещами бренда"
+		]
+	},
+
+	{
+		"id": 4,
+		"type": "accessories",
+		"name": "Носки Basic ZRD",
+		"real_price": 290,
+		"unreal_price": 400,
+		"current_image": "http://127.0.0.1:9000/accessories/SocksBasicZRD-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/accessories/SocksBasicZRD-transformed.png"
+		],
+		"current_color": "white",
+		"colors": [
+			"white"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Носки ZRD Basic", 
+			"Состав: 80% хлопок, 15% полиамид, 5% эластан", 
+			"Длина резинки: 15 см",
+			"Размеры: 41-44", 
+			"Отлично сочетается с остальными вещами бренда"
+		]
+	}
+	
+]

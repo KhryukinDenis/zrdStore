@@ -4,22 +4,7 @@
   box-sizing: border-box;
 }
 
-*::before, *::after {
-  box-sizing: border-box;
-}
-
-.img.responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-body {
+.body {
   font-size: 16px;
   min-width: 320px;
   position: relative;
@@ -186,4 +171,3 @@ header .container {
 @media only screen and (max-width: 390px) {
 
 }
-

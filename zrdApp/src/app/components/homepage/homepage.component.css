@@ -4,22 +4,7 @@
   box-sizing: border-box;
 }
 
-*::before, *::after {
-  box-sizing: border-box;
-}
-
-.img.responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-body {
+.body {
   font-size: 16px;
   min-width: 320px;
   position: relative;
@@ -47,6 +32,7 @@ body {
   margin: 2%;
   border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
 }
 
 figure figcaption {
@@ -56,8 +42,7 @@ figure figcaption {
 }
 
 figure img {
-  max-width: 70%;
-  margin-left: 25%;
+  max-width: 80%;
 }
 
 .price {
@@ -89,107 +74,69 @@ figcaption img {
   margin-top: 10px;
 }
 
-input {
-  margin-right: 20px;
+figcaption .name{
+  text-decoration: none;
+  color: black;
 }
 
-.radiobut {
+figcaption .name:hover {
+  border-bottom: 1px solid black;
+}
+
+figcaption .name:active {
+  border-bottom: 1px solid red;
+}
+
+button {
+  background-image: url(http://127.0.0.1:9000/zrdbucket/ico_cart.png);
+  background-repeat: no-repeat;
+  background-position: 45%;
+  width: 55px;
+  height: 40px;
+  border: 0;
+  background-color: #E5E3E4;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+button:hover {
+  border-radius: 5px;
+  box-shadow: 0 0 5px gray;
+}
+
+button:active {
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+}
+
+.colorbut {
   margin-top: -3%;
 }
 
-input[type='radio'].black:after {
+.color-btn {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: black;
-  content: '';
-  display: inline-block;
-  visibility: visible;
   border: 1px solid black;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-input[type='radio'].black:checked:after {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: black;
-  content: '';
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid blue;
+.color-btn-act {
+  border: 2px solid rgb(86, 70, 160);
 }
 
-input[type='radio'].white:after {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: white;
-  content: '';
-  display: inline-block;
-  visibility: visible;
-  border: 1px solid black;
-}
-
-input[type='radio'].white:checked:after {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: white;
-  content: '';
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid blue;
-}
-
-input[type='radio'].beige:after {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #D4BAB0;
-  content: '';
-  display: inline-block;
-  visibility: visible;
-  border: 1px solid black;
-}
-
-input[type='radio'].beige:checked:after {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #D4BAB0;
-  content: '';
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid blue;
-}
-
-input[type='radio'].brown:after {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #2E2D38;
-  content: '';
-  display: inline-block;
-  visibility: visible;
-  border: 1px solid black;
-}
-
-input[type='radio'].brown:checked:after {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #2E2D38;
-  content: '';
-  display: inline-block;
-  visibility: visible;
-  border: 2px solid blue;
+#color_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
 }
 
 
 /* ADAPTIVE */
 
 @media only screen and (max-width: 1050px) {
-
   .container figure {
     margin-left: 5%;
     margin-right: 5%;
@@ -197,7 +144,6 @@ input[type='radio'].brown:checked:after {
 }
 
 @media only screen and (max-width: 770px) {
-
   .container figure {
     margin-left: 25px;
     margin-right: 15px;
@@ -205,7 +151,6 @@ input[type='radio'].brown:checked:after {
 }
 
 @media only screen and (max-width: 696px) {
-
   .container figure {
     margin-left: 15px;
     margin-right: 10px;
@@ -213,7 +158,6 @@ input[type='radio'].brown:checked:after {
 }
 
 @media only screen and (max-width: 666px) {
-
   .container figure {
     margin-left: 5px;
     margin-right: 5px;
@@ -221,14 +165,12 @@ input[type='radio'].brown:checked:after {
 }
 
 @media only screen and (max-width: 636px) {
-
   .container figure {
     margin-left: 25%;
   }
 }
 
 @media only screen and (max-width: 615px) {
-
   .container figure {
     margin-left: auto;
     margin-right: auto;

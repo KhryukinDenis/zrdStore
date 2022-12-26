@@ -1,0 +1,183 @@
+[
+    {
+		"id": 0,
+		"type": "tshirts",
+		"name": "T-Shirt Geoposition",
+		"real_price": 2300,
+		"unreal_price": 2800,
+		"current_image": "http://127.0.0.1:9000/tshirts/Tshirt_Geoposition_white-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/tshirts/Tshirt_Geoposition_white-transformed.png",
+			"http://127.0.0.1:9000/tshirts/Tshirt_Geoposition_black-transformed.png",
+            "http://127.0.0.1:9000/tshirts/Tshirt_Geoposition_beige-transformed.png",
+            "http://127.0.0.1:9000/tshirts/Tshirt_Geoposition_brown-transformed.png"
+		],
+		"current_color": "white",
+		"colors": [
+			"white",
+			"black",
+            "burlywood",
+            "darkslategrey"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Оверсайз крой с удлиненным рукавом", 
+			"Принт с геопозицией", 
+			"Сделана из плотного футера плотность 240 гр",
+			"На левом рукаве жаккардовый лейбл", 
+			"Состав: 95 % хлопок 5% эластан"
+		]
+	},
+
+	{
+		"id": 1,
+		"type": "tshirts",
+		"name": "Футболка ZRD Blur",
+		"real_price": 1700,
+		"unreal_price": 2500,
+		"current_image": "http://127.0.0.1:9000/tshirts/ZRD_Blur_purple-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/tshirts/ZRD_Blur_purple-transformed.png",
+			"http://127.0.0.1:9000/tshirts/ZRD_Blur_white-transformed.png"
+		],
+		"current_color": "purple",
+		"colors": [
+			"purple",
+			"white"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Оверсайз крой", 
+			"Печать шелкография", 
+			"Трикотажное полотно особой высокопористой, петлистой, воздушной структуры придающее невероятный комфорт",
+			"На груди Blur принтс", 
+			"Состав: 95 % хлопок 5% эластан"
+		]
+	},
+
+	{
+		"id": 2,
+		"type": "tshirts",
+		"name": "Футболка ZRD Tag",
+		"real_price": 1700,
+		"unreal_price": 2500,
+		"current_image": "http://127.0.0.1:9000/tshirts/ZRD_Tag_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/tshirts/ZRD_Tag_beige-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Крой с заниженной линией плеча", 
+			"Печать шелкография", 
+			"Турецкий френч терри 240 гр",
+			"На груди эксклюзивный принт", 
+			"Состав: 95 % хлопок 5% эластан"
+		]
+	},
+
+	{
+		"id": 3,
+		"type": "tshirts",
+		"name": "Футболка Kombo",
+		"real_price": 1800,
+		"unreal_price": 2400,
+		"current_image": "http://127.0.0.1:9000/tshirts/Kombo_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/tshirts/Kombo_beige-transformed.png",
+			"http://127.0.0.1:9000/tshirts/Kombo_kakao-transformed.png",
+			"http://127.0.0.1:9000/tshirts/Kombo_lightgray-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"rosybrown",
+			"lightgray"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Оверсайз Крой", 
+			"Печать шелкография", 
+			"2 накладных кармана из полиэстера",
+			"Трикотажное полотно френч-терри", 
+			"Нетипичный выбор уличного хулигана"
+		]
+	},
+
+	{
+		"id": 4,
+		"type": "tshirts",
+		"name": "Футболка ZRD CNT",
+		"real_price": 1700,
+		"unreal_price": 2500,
+		"current_image": "http://127.0.0.1:9000/tshirts/ZRD_CNT_blue-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/tshirts/ZRD_CNT_blue-transformed.png",
+			"http://127.0.0.1:9000/tshirts/ZRD_CNT_black-transformed.png",
+			"http://127.0.0.1:9000/tshirts/ZRD_CNT_white-transformed.png",
+			"http://127.0.0.1:9000/tshirts/ZRD_CNT_khaki-transformed.png",
+			"http://127.0.0.1:9000/tshirts/ZRD_CNT_purple-transformed.png",
+			"http://127.0.0.1:9000/tshirts/ZRD_CNT_beige-transformed.png"
+		],
+		"current_color": "dodgerblue",
+		"colors": [
+			"dodgerblue",
+			"black",
+            "white",
+            "darksalmon",
+			"purple",
+			"burlywood"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Оверсайз Крой", 
+			"Печать шелкография", 
+			"Турецкая кулирка плотность 200 гр",
+			"На груди брендовая звездочка", 
+			"Состав: 95 % хлопок 5% эластан"
+		]
+	}
+]

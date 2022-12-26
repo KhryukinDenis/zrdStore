@@ -1,0 +1,601 @@
+[
+	{
+		"id": 0,
+		"type": "jackets",
+		"name": "Зимняя куртка 'Puffy'",
+		"real_price": 8300,
+		"unreal_price": 9700,
+		"current_image": "http://127.0.0.1:9000/jackets/puffy_black-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/puffy_black-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffy_violet-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffy_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffy_gray-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffy_red-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffy_yellow-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black",
+			"purple",
+			"navy",
+			"lightgray",
+			"darkred",
+			"orange"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Ты тоже устал чувствовать себя неуклюже в длинных зимних парках, бро?", 
+			"Получай! Короткая куртка ZRD Puffy – твой невероятный айтем этой зимой!", 
+			"Трёхслойная мембрана с водонепроницаемостью 5000 мм и паропроницаемостью 5000 г/м2, также утеплитель Siberia в основе изделия обеспечат комфортное движение и лайки от твоего окружения",
+			"Смещённая вниз линия плеча + oversize крой", 
+			"Рекомендованный температурный режим до -20°C"
+		]
+	},
+
+	{
+		"id": 1,
+		"type": "jackets",
+		"name": "Зимняя куртка 'Puffy Tag'",
+		"real_price": 8800,
+		"unreal_price": 10300,
+		"current_image": "http://127.0.0.1:9000/jackets/puffyTag_white-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/puffyTag_white-transformed.png",
+			"http://127.0.0.1:9000/jackets/puffyTag_black-transformed.png"
+		],
+		"current_color": "white",
+		"colors": [
+			"white",
+			"black"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"В модели использовать бельгийский утеплитель Изософт 300г/м2", 
+			"Куртка имеет 2 внутренних и два наружных кармана", 
+			"Рекомендованный температурный режим до -20°C",
+			"Фирменный логотип в виде тега выполнен шелкографией",
+			"Материал трёхслойная мембрана с водонепроницаемостью 5000 мм и паропроницаемостью 5000 г/м2"
+		]
+	},
+
+	{
+		"id": 2,
+		"type": "jackets",
+		"name": "Parka 'ZRD' two basic",
+		"real_price": 9600,
+		"unreal_price": 11300,
+		"current_image": "http://127.0.0.1:9000/jackets/ParkaZRDtwoBasic_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/ParkaZRDtwoBasic_beige-transformed.png",
+			"http://127.0.0.1:9000/jackets/ParkaZRDtwoBasic_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/ParkaZRDtwoBasic_khaki-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"lightblue",
+			"brown"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Куртка выполнена из мягкой мембранной ткани и высокотехнологичного утеплителя Siberia", 
+			"Совершенно новая и самая яркая модель Зимы", 
+			"Модель рассчитана до -25°C температурного режима",
+			"Куртка имеет двойную молнию,что придаст комфортность при использовании",
+			"На левом рукаве пришит обновленный логотип"
+		]
+	},
+
+	{
+		"id": 3,
+		"type": "jackets",
+		"name": "Parka 'ZRD' basic",
+		"real_price": 9600,
+		"unreal_price": 11300,
+		"current_image": "http://127.0.0.1:9000/jackets/ParkaZRDbasic_blue-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/ParkaZRDbasic_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/ParkaZRDbasic_beige-transformed.png",
+			"http://127.0.0.1:9000/jackets/ParkaZRDbasic_khaki-transformed.png"
+		],
+		"current_color": "lightblue",
+		"colors": [
+			"lightblue",
+			"beige",
+			"brown"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Куртка выполнена из мягкой мембранной ткани и высокотехнологичного утеплителя Siberia", 
+			"Совершенно новая и самая яркая модель Зимы", 
+			"Модель рассчитана до -25°C температурного режима",
+			"Куртка имеет двойную молнию,что придаст комфортность при использовании",
+			"Прямой крой, 4 прорезных кармана, каждый из которых фиксируется кнопкой, на левом плече пришит обновленный логотип"
+		]
+	},
+
+	{
+		"id": 4,
+		"type": "jackets",
+		"name": "Зимняя парка ZRD Pump",
+		"real_price": 9400,
+		"unreal_price": 11100,
+		"current_image": "http://127.0.0.1:9000/jackets/ZrdPump_gray-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/ZrdPump_gray-transformed.png",
+			"http://127.0.0.1:9000/jackets/ZrdPump_black-transformed.png",
+			"http://127.0.0.1:9000/jackets/ZrdPump_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/ZrdPump_red-transformed.png",
+			"http://127.0.0.1:9000/jackets/ZrdPump_violet-transformed.png"
+		],
+		"current_color": "lightgray",
+		"colors": [
+			"lightgray",
+			"black",
+			"navy",
+			"darkred",
+			"purple"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Парка сделана из мембраны 5к/5к", 
+			"Модель оснащена 2 основными карманами и 1 внутренним", 
+			"Внутри стеганная подкладка-100% полиэстер",
+			"В куртке использован высокотехнологичный утеплитель “Siberia”",
+			"Комфортная температура носки: до -25"
+		]
+	},
+
+	{
+		"id": 5,
+		"type": "jackets",
+		"name": "Анорак Simple",
+		"real_price": 3799,
+		"unreal_price": 4700,
+		"current_image": "http://127.0.0.1:9000/jackets/Anorak_Simple_blue-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/Anorak_Simple_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/Anorak_Simple_red-transformed.png",
+			"http://127.0.0.1:9000/jackets/Anorak_Simple_darkolivegreen-transformed.png"
+		],
+		"current_color": "navy",
+		"colors": [
+			"navy",
+			"darkred",
+			"seagreen"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Прямой крой Верх плащевка c водоотталкивающей пропиткой", 
+			"Подкладка 100% полиэфир Большой карман кенгуру со скрытыми молниями по бокам", 
+			"Горловина из манжетной ткани",
+			"Внизу резинка с фиксатором",
+			"На груди фирменный прин"
+		]
+	},
+
+	{
+		"id": 6,
+		"type": "jackets",
+		"name": "Bomber ZRD Tag",
+		"real_price": 4399,
+		"unreal_price": 5100,
+		"current_image": "http://127.0.0.1:9000/jackets/BomberZRDTag_gray-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/BomberZRDTag_gray-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRDTag_black-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRDTag_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRDTag_beige-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRDTag_violet-transformed.png"
+		],
+		"current_color": "gray",
+		"colors": [
+			"gray",
+			"black",
+			"blue",
+			"beige",
+			"purple"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Утепленный оверсайз бомбер", 
+			"4 кармана снаружи и один внутри на кнопке", 
+			"Принт в виде тега “ZRD”",
+			"Основная ткань: 100% полиэстер",
+			"Утеплитель: бельгийский isosoft 150 гр"
+		]
+	},
+
+	{
+		"id": 7,
+		"type": "jackets",
+		"name": "Bomber Flat World",
+		"real_price": 3899,
+		"unreal_price": 4500,
+		"current_image": "http://127.0.0.1:9000/jackets/BomberFlatWorld_black-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/BomberFlatWorld_black-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberFlatWorld_beige-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberFlatWorld_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberFlatWorld_gray-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberFlatWorld_lightblue-transformed.png"
+		],
+		"current_color": "black",
+		"colors": [
+			"black",
+			"beige",
+			"navy",
+			"lightgray",
+			"lightblue"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Бомбер оверсайз с заниженной линией плеча", 
+			"3 кармана снаружи", 
+			"Внутри дополнительный карман на молнии",
+			"Материал имеет водоотталкивающие свойства",
+			"Манжеты и пояс на резинке"
+		]
+	},
+
+	{
+		"id": 8,
+		"type": "jackets",
+		"name": "Куртка Coach",
+		"real_price": 3599,
+		"unreal_price": 4390,
+		"current_image": "http://127.0.0.1:9000/jackets/KurtkaCoach_white-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/KurtkaCoach_white-transformed.png",
+			"http://127.0.0.1:9000/jackets/KurtkaCoach_black-transformed.png",
+			"http://127.0.0.1:9000/jackets/KurtkaCoach_beige-transformed.png",
+			"http://127.0.0.1:9000/jackets/KurtkaCoach_gray-transformed.png"
+		],
+		"current_color": "white",
+		"colors": [
+			"white",
+			"black",
+			"burlywood",
+			"lightgray"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Прямой крой", 
+			"Подкладка 100% полиэфир", 
+			"Верх плащевка c водоотталкивающей пропиткой",
+			"2 внешних кармана 1 внутренний карман",
+			"Сзади принт “Следуй знакомыми дворами”"
+		]
+	},
+
+	{
+		"id": 9,
+		"type": "jackets",
+		"name": "Bomber ZRD 'Ракета'",
+		"real_price": 2999,
+		"unreal_price": 3500,
+		"current_image": "http://127.0.0.1:9000/jackets/BomberZRDRaketa_red-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/BomberZRDRaketa_red-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRDRaketa_khaki-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRDRaketa_blue-transformed.png"
+		],
+		"current_color": "darkred",
+		"colors": [
+			"darkred",
+			"seagreen",
+			"navy"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Легкая и приятная на ощупь ткань из полиэстера", 
+			"2 накладных кармана на кнопках", 
+			"Внутри один карман на молнии",
+			"Сзади принт с изображением ракеты",
+			"Манжеты на резинке"
+		]
+	},
+
+	{
+		"id": 10,
+		"type": "jackets",
+		"name": "Bomber ZRD basic 20",
+		"real_price": 3199,
+		"unreal_price": 4200,
+		"current_image": "http://127.0.0.1:9000/jackets/BomberZRDbasic20_red-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/BomberZRDbasic20_red-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRDbasic20_black-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRDbasic20_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRDbasic20_darkolivegreen-transformed.png"
+		],
+		"current_color": "darkred",
+		"colors": [
+			"darkred",
+			"black",
+			"navy",
+			"seagreen"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Легкая и приятная на ощупь ткань из полиэстера", 
+			"2 накладных кармана на кнопках внутри один карман на молнии", 
+			"Манжеты на резинке",
+			"На левом плече дополнительный карман",
+			"Состав: 100% полиэстер"
+		]
+	},
+
+	{
+		"id": 11,
+		"type": "jackets",
+		"name": "Bomber ZRD",
+		"real_price": 2999,
+		"unreal_price": 3900,
+		"current_image": "http://127.0.0.1:9000/jackets/BomberZRD_yellow-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/BomberZRD_yellow-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRD_black-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRD_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRD_gray-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRD_lightblue-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRD_red-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRD_violet-transformed.png"
+		],
+		"current_color": "yellow",
+		"colors": [
+			"yellow",
+			"black",
+			"navy",
+			"gray",
+			"lightblue",
+			"red",
+			"purple"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Бомбер с карманом на плече", 
+			"Верх - плащевка с водонепроницаемой пропиткой", 
+			"Подкладка - 100% полиэстер",
+			"Бейсбольный воротник",
+			"В модели использованы водонепроницаемые молнии"
+		]
+	},
+
+	{
+		"id": 12,
+		"type": "jackets",
+		"name": "Bomber ZRD Rhomb",
+		"real_price": 3799,
+		"unreal_price": 5200,
+		"current_image": "http://127.0.0.1:9000/jackets/BomberZRD-Rhomb_beige-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/BomberZRD-Rhomb_beige-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRD-Rhomb_blue-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRD-Rhomb_black-transformed.png",
+			"http://127.0.0.1:9000/jackets/BomberZRD-Rhomb_brown-transformed.png"
+		],
+		"current_color": "burlywood",
+		"colors": [
+			"burlywood",
+			"navy",
+			"black",
+			"brown"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Лёгкий бомбер из стеганной плащевки", 
+			"2 кармана на кнопках и один внутри на молнии", 
+			"Верх – плащевка (с водоотталкивающей пропиткой)",
+			"Утеплитель – синтепух",
+			"Хороший вариант на теплую осень-весну"
+		]
+	},
+
+	{
+		"id": 13,
+		"type": "jackets",
+		"name": "Parka ZRD Logo",
+		"real_price": 3999,
+		"unreal_price": 5299,
+		"current_image": "http://127.0.0.1:9000/jackets/ParkaZRD_Logo_red-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/ParkaZRD_Logo_red-transformed.png",
+			"http://127.0.0.1:9000/jackets/ParkaZRD_Logo_brown-transformed.png",
+			"http://127.0.0.1:9000/jackets/ParkaZRD_Logo_blue-transformed.png"
+		],
+		"current_color": "darkred",
+		"colors": [
+			"darkred",
+			"brown",
+			"navy"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Легкая парка из коллекции ZRD Basic 20", 
+			"Верх: плащевка", 
+			"Подкладка: 100% полиэстер",
+			"Манжеты на липучке",
+			"На спине фирменный лого"
+		]
+	},
+
+	{
+		"id": 14,
+		"type": "jackets",
+		"name": "Удлиненный бомбер ZRD",
+		"real_price": 1400,
+		"unreal_price": 3400,
+		"current_image": "http://127.0.0.1:9000/jackets/UdlBomberZRD_purple-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/UdlBomberZRD_purple-transformed.png",
+			"http://127.0.0.1:9000/jackets/UdlBomberZRD_brown-transformed.png"
+		],
+		"current_color": "purple",
+		"colors": [
+			"purple",
+			"brown"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Бомбер с карманом на плече", 
+			"Верх - плащевка с водонепроницаемой пропиткой", 
+			"Подкладка - 100% полиэстер",
+			"Бейсбольный воротник",
+			"Манжеты из трикотажа"
+		]
+	},
+
+	{
+		"id": 15,
+		"type": "jackets",
+		"name": "Зимняя парка ZRD Lamp",
+		"real_price": 4699,
+		"unreal_price": 6800,
+		"current_image": "http://127.0.0.1:9000/jackets/ZimnyayaParkaZRD_Lamp_blue-transformed.png",
+		"images": [
+			"http://127.0.0.1:9000/jackets/ZimnyayaParkaZRD_Lamp_blue-transformed.png"
+		],
+		"current_color": "navy",
+		"colors": [
+			"navy"
+		],
+		"current_size": "XS",
+		"sizes": [
+			"XS",
+			"S",
+			"M",
+			"L",
+			"XL",
+			"XXL"
+		],
+		"desc": [
+			"Сделана из мембраны 5к/5к", 
+			"Модель оснащена 4 основными карманами и 1 внутренним", 
+			"Внутри стеганная подкладка - 100% полиэстер",
+			"В куртке использован высокотехнологичный утеплитель 'Siberia'",
+			"Комфортная температура носки: до -25"
+		]
+	}
+]

@@ -1,38 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
+<div class="body">
   <header>
     <div class="contmobile">
       <div class="ico_list">
-        <!-- <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/kurtka.png"></a>
-        <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/shtany.png"></a>
-        <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/kostyum.png"></a>
-        <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/sweater.png"></a>
-        <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/t-shirt.png"></a>
-        <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/aksessuar.png"></a> -->
         <figure>
-          <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/kurtka.png"><p>Куртки</p></a>
+          <a (click)="clickJackets()"><img src="http://127.0.0.1:9000/zrdbucket/kurtka.png"><p>Куртки</p></a>
         </figure>
         <figure>
-          <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/shtany.png"><p>Штаны</p></a>
+          <a (click)="clickPants()"><img src="http://127.0.0.1:9000/zrdbucket/shtany.png"><p>Штаны</p></a>
         </figure>
         <figure>
-          <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/kostyum.png"><p>Костюмы</p></a>
+          <a (click)="clickSuits()"><img src="http://127.0.0.1:9000/zrdbucket/kostyum.png"><p>Костюмы</p></a>
         </figure>
         <figure>
-          <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/t-shirt.png"><p>Футболки</p></a>
+          <a (click)="clickTshirts()"><img src="http://127.0.0.1:9000/zrdbucket/t-shirt.png"><p>Футболки</p></a>
         </figure>
         <figure>
-          <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/sweater.png"><p>Кофты</p></a>
+          <a (click)="clickSweatshirts()"><img src="http://127.0.0.1:9000/zrdbucket/sweater.png"><p>Кофты</p></a>
         </figure>
         <figure>
-          <a href="#"><img src="http://127.0.0.1:9000/zrdbucket/aksessuar.png"><p>Аксессуары</p></a>
+          <a (click)="clickAccessories()"><img src="http://127.0.0.1:9000/zrdbucket/aksessuar.png"><p>Аксессуары</p></a>
         </figure>
       </div>
     </div>
@@ -40,15 +26,14 @@
     <div class="container">
         <div class="mnu_list">
           <ul>
-            <li><a href="">Куртки</a></li>
-            <li><a href="">Штаны</a></li>
-            <li><a href="">Костюмы</a></li>
-            <li><a href="">Футболки</a></li>
-            <li><a href="">Кофты</a></li>
-            <li><a href="">Аксессуары</a></li>
+            <li><a (click)="clickJackets()">Куртки</a></li>
+            <li><a (click)="clickPants()">Штаны</a></li>
+            <li><a (click)="clickSuits()">Костюмы</a></li>
+            <li><a (click)="clickTshirts()">Футболки</a></li>
+            <li><a (click)="clickSweatshirts()">Кофты</a></li>
+            <li><a (click)="clickAccessories()">Аксессуары</a></li>
           </ul>
         </div>
     </div>
   </header>
-</body>
-</html>
+</div>

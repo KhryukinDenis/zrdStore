@@ -1,53 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
+<div class="body">
   <app-header></app-header>
   <app-nav></app-nav>
   <div>
     <div class="container">
 
-      <div class="backstr"><a href="#"><img src="http://127.0.0.1:9000/zrdbucket/back_strel.png"></a></div>
+      <div class="backstr"><a href="#"><img src="http://127.0.0.1:9000/zrdbucket/back_str.png"></a></div>
       <h2><a href="#">Вернуться назад</a></h2>
 
       <div class="gal">
-        <a><img src="http://127.0.0.1:9000/zrdbucket/back_str.png"></a>
-        <a class="mainphoto"><img src="http://127.0.0.1:9000/zrdbucket/t-shirt%20geo%20black.jpg"></a>
-        <a><img src="http://127.0.0.1:9000/zrdbucket/prew_str.png"></a>
+        <a class="mainphoto"><img src="{{prod.current_image}}"></a>
       </div>
 
       <div class="info">
-        <h4>T-Shirt Geoposition</h4>
+        <h4>{{prod.name}}</h4>
         <div class="price">
-          <p class="pricereal">2344₽</p><p class="priceunreal">3000₽</p>
+          <p class="pricereal">{{prod.real_price}} ₽</p><p class="priceunreal">{{prod.unreal_price}} ₽</p>
         </div>
         <p>Размеры:</p>
         <div class="btn-size">
-          <button>XS</button>
-          <button>S</button>
-          <button>M</button>
-          <button>L</button>
-          <button>XL</button>
-          <button>XXL</button>
+          <button *ngFor="let Size of prod.sizes">{{Size}}</button>
         </div>
         <div class="btn-add">
-          <button>Добавить в корзину</button>
+          <button (click)="addToCart(prod)">Добавить в корзину</button>
         </div>
         <p>Характеристики:</p>
         <ul>
-          <li>Оверсайз крой</li>
-          <li>Печать шелкография</li>
-          <li>Два накладных кармана из полиэстра</li>
-          <li>Трикотажное полотно Френч Терри</li>
+          <li *ngFor="let Xar of prod.desc">{{Xar}}</li>
         </ul>
-        <p>Цвет: чёрный</p>
+        <p>Цвет: {{prod.current_color}}</p>
       </div>
     </div>
     <app-footer></app-footer>
   </div>
-</body>
-</html>
+</div>

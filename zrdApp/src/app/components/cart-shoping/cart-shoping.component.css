@@ -4,22 +4,7 @@
   box-sizing: border-box;
 }
 
-*::before, *::after {
-  box-sizing: border-box;
-}
-
-.img.responsive {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-body {
+.body {
   font-size: 16px;
   min-width: 320px;
   position: relative;
@@ -100,6 +85,14 @@ h2 a {
   border-radius: 5px;
 }
 
+.decorbtn:hover {
+  box-shadow: 0 0 5px gray;
+}
+
+.decorbtn:active {
+  box-shadow: 0 0 10 px black;
+}
+
 .pay p {
   font-size: 24px;
   font-family: 'Cormorant Unicase', serif;
@@ -130,9 +123,6 @@ h2 a {
   max-width: 70%;
 }
 
-.prodlist .seccart img {
-  width: 150%;
-}
 
 .secinfo p {
   font-size: 24px;
@@ -142,11 +132,33 @@ h2 a {
 .secinfo h4 {
   font-size: 32px;
   font-family: 'Cormorant Unicase', serif;
-  margin-bottom: 15%;
+  margin-bottom: 12%;
   margin-top: 10%;
   font-style: normal;
   font-weight: normal;
 }
+
+.del{
+  background-image: url(http://127.0.0.1:9000/zrdbucket/korzina_ico.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  width: 50px;
+  height: 60px;
+  border: 0;
+  background-color: #E5E3E4;
+}
+
+.del:hover {
+  border-radius: 5px;
+  box-shadow: 0 0 5px gray;
+}
+
+.del:active {
+  border-radius: 5px;
+  box-shadow: 0 0 10px gray;
+}
+
+
 
 
 /* ADAPTIVE */
@@ -161,10 +173,11 @@ h2 a {
 
   .container {
     margin-top: 4.2%;
+    grid-template-columns: 35% auto;
   }
 
   .container .prodlist {
-    grid-template-columns: 50% auto 15%;
+    grid-template-columns: 40% auto 15%;
   }
 
   .prodlist .secphoto img {
@@ -265,19 +278,18 @@ h2 a {
 
   .prodlist .secphoto {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 1;
     margin-top: 0;
   }
 
   .prodlist .secphoto img {
-    max-width: 100%;
-    margin-left: 15%;
+    margin-left: 0;
     margin-top: 0;
   }
 
   .prodlist .secinfo {
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 2;
   }
 
   .secinfo p {

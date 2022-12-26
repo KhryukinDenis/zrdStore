@@ -1,157 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
-<body>
+<div class="body">
   <app-header></app-header>
-  <app-nav></app-nav>
+  <app-nav
+    (onClickJackets)="ClickJackets()"
+    (onClickPants)="ClickPants()"
+    (onClickSuits)="ClickSuits()"
+    (onClickTshirts)="ClickTshirts()"
+    (onClickSweatshirts)="ClickSweatshirts()"
+    (onClickAccessories)="ClickAccessories()">
+  </app-nav>
   <app-special-menu></app-special-menu>
   <div>
-    <div class="container">
-        <figure>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/specmenuPhoto1.png"></a>
-        <figcaption>T-Shirt Geoposition</figcaption>
-        <figcaption class="price"><p class="pricereal">2344₽</p><p class="priceunreal">3000₽</p></figcaption>
-        <figcaption class="radiobut">
-          <form action="#">
-            <input type="radio" class="black" name="rdbtn">
-            <input type="radio" class="white" name="rdbtn">
-            <input type="radio" class="beige" name="rdbtn">
-            <input type="radio" class="brown" name="rdbtn">
-          </form>
+    <div class="container" >
+        <figure *ngFor="let item of prods">
+          <img src="{{item.current_image}}">
+        <figcaption><a class="name" [routerLink]="['card-product/', item.type, item.id, item.current_color]">{{item.name}}</a></figcaption>
+        <figcaption class="price"><p class="pricereal">{{item.real_price}} ₽</p><p class="priceunreal">{{item.unreal_price}} ₽</p></figcaption>
+        <figcaption class="colorbut">
+            <div id="color_box">
+              <div (click)="change_color($event,item)" class="{{color}}" *ngFor="let color of item.colors" class="color-btn" [style.background-color]="color"></div>
+            </div>
         </figcaption>
         <figcaption>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/shopping-cart_icon-icons.com_65051%20%281%29.png"></a>
-        </figcaption>
-        </figure>
-
-        <figure>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/specmenuPhoto1.png"></a>
-        <figcaption>T-Shirt Geoposition</figcaption>
-        <figcaption class="price"><p class="pricereal">2344₽</p><p class="priceunreal">3000₽</p></figcaption>
-        <figcaption class="radiobut">
-          <form action="#">
-            <input type="radio" class="black" name="rdbtn">
-            <input type="radio" class="white" name="rdbtn">
-            <input type="radio" class="beige" name="rdbtn">
-            <input type="radio" class="brown" name="rdbtn">
-          </form>
-        </figcaption>
-        <figcaption>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/shopping-cart_icon-icons.com_65051%20%281%29.png"></a>
-        </figcaption>
-        </figure>
-
-        <figure>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/specmenuPhoto1.png"></a>
-        <figcaption>T-Shirt Geoposition</figcaption>
-        <figcaption class="price"><p class="pricereal">2344₽</p><p class="priceunreal">3000₽</p></figcaption>
-        <figcaption class="radiobut">
-          <form action="#">
-            <input type="radio" class="black" name="rdbtn">
-            <input type="radio" class="white" name="rdbtn">
-            <input type="radio" class="beige" name="rdbtn">
-            <input type="radio" class="brown" name="rdbtn">
-          </form>
-        </figcaption>
-        <figcaption>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/shopping-cart_icon-icons.com_65051%20%281%29.png"></a>
-        </figcaption>
-        </figure>
-
-        <figure>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/specmenuPhoto1.png"></a>
-        <figcaption>T-Shirt Geoposition</figcaption>
-        <figcaption class="price"><p class="pricereal">2344₽</p><p class="priceunreal">3000₽</p></figcaption>
-        <figcaption class="radiobut">
-          <form action="#">
-            <input type="radio" class="black" name="rdbtn">
-            <input type="radio" class="white" name="rdbtn">
-            <input type="radio" class="beige" name="rdbtn">
-            <input type="radio" class="brown" name="rdbtn">
-          </form>
-        </figcaption>
-        <figcaption>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/shopping-cart_icon-icons.com_65051%20%281%29.png"></a>
-        </figcaption>
-        </figure>
-
-        <figure>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/specmenuPhoto1.png"></a>
-        <figcaption>T-Shirt Geoposition</figcaption>
-        <figcaption class="price"><p class="pricereal">2344₽</p><p class="priceunreal">3000₽</p></figcaption>
-        <figcaption class="radiobut">
-          <form action="#">
-            <input type="radio" class="black" name="rdbtn">
-            <input type="radio" class="white" name="rdbtn">
-            <input type="radio" class="beige" name="rdbtn">
-            <input type="radio" class="brown" name="rdbtn">
-          </form>
-        </figcaption>
-        <figcaption>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/shopping-cart_icon-icons.com_65051%20%281%29.png"></a>
-        </figcaption>
-        </figure>
-
-        <figure>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/specmenuPhoto1.png"></a>
-        <figcaption>T-Shirt Geoposition</figcaption>
-        <figcaption class="price"><p class="pricereal">2344₽</p><p class="priceunreal">3000₽</p></figcaption>
-        <figcaption class="radiobut">
-          <form action="#">
-            <input type="radio" class="black" name="rdbtn">
-            <input type="radio" class="white" name="rdbtn">
-            <input type="radio" class="beige" name="rdbtn">
-            <input type="radio" class="brown" name="rdbtn">
-          </form>
-        </figcaption>
-        <figcaption>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/shopping-cart_icon-icons.com_65051%20%281%29.png"></a>
-        </figcaption>
-        </figure>
-
-        <figure>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/specmenuPhoto1.png"></a>
-        <figcaption>T-Shirt Geoposition</figcaption>
-        <figcaption class="price"><p class="pricereal">2344₽</p><p class="priceunreal">3000₽</p></figcaption>
-        <figcaption class="radiobut">
-          <form action="#">
-            <input type="radio" class="black" name="rdbtn">
-            <input type="radio" class="white" name="rdbtn">
-            <input type="radio" class="beige" name="rdbtn">
-            <input type="radio" class="brown" name="rdbtn">
-          </form>
-        </figcaption>
-        <figcaption>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/shopping-cart_icon-icons.com_65051%20%281%29.png"></a>
-        </figcaption>
-        </figure>
-
-        <figure>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/specmenuPhoto1.png"></a>
-        <figcaption>T-Shirt Geoposition</figcaption>
-        <figcaption class="price"><p class="pricereal">2344₽</p><p class="priceunreal">3000₽</p></figcaption>
-        <figcaption class="radiobut">
-          <form action="#">
-            <input type="radio" class="black" name="rdbtn">
-            <input type="radio" class="white" name="rdbtn">
-            <input type="radio" class="beige" name="rdbtn">
-            <input type="radio" class="brown" name="rdbtn">
-          </form>
-        </figcaption>
-        <figcaption>
-          <a><img src="http://127.0.0.1:9000/zrdbucket/shopping-cart_icon-icons.com_65051%20%281%29.png"></a>
+          <button (click)="addToCart(item)"></button>
         </figcaption>
         </figure>
     </div>
     <app-footer></app-footer>
   </div>
-</body>
-</html>
+</div>
 
