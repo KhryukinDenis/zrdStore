@@ -10,39 +10,68 @@ import { Observable } from 'rxjs';
 })
 export class HomepageComponent {
   constructor(private service: BaseService) { }
-
+  filter: string = "";
   prods: Product[] = [];
-
   ngOnInit() {
-    this.service.getHits().subscribe(data => this.prods = data);
+    this.ClickHits();
   }
 
   ClickHits() {
-    this.service.getHits().subscribe(data => this.prods = data);
+    this.service.getHits(this.filter).subscribe(data => this.prods = data);
   }
 
   ClickJackets() {
-    this.service.getJackets().subscribe(data => this.prods = data);
+    this.service.getJackets(this.filter).subscribe(data => this.prods = data);
   }
 
   ClickPants() {
-    this.service.getPants().subscribe(data => this.prods = data);
+    this.service.getPants(this.filter).subscribe(data => this.prods = data);
   }
 
   ClickSuits() {
-    this.service.getSuits().subscribe(data => this.prods = data);
+    this.service.getSuits(this.filter).subscribe(data => this.prods = data);
   }
 
   ClickTshirts() {
-    this.service.getTshirts().subscribe(data => this.prods = data);
+    this.service.getTshirts(this.filter).subscribe(data => this.prods = data);
   }
 
   ClickSweatshirts() {
-    this.service.getSweatshirts().subscribe(data => this.prods = data);
+    this.service.getSweatshirts(this.filter).subscribe(data => this.prods = data);
   }
 
   ClickAccessories() {
-    this.service.getAccessories().subscribe(data => this.prods = data);
+    this.service.getAccessories(this.filter).subscribe(data => this.prods = data);
+  }
+
+  filter_data(event: string) {
+    let type = this.prods[0].type;
+    this.filter = event;
+    console.log(type, " ", this.filter);
+    switch (type) {
+      case "hits":
+        this.ClickHits();
+        break;
+      case "accessories":
+        this.ClickAccessories();
+        break;
+      case "jackets":
+        this.ClickJackets();
+        break;
+      case "pants":
+        this.ClickPants();
+        break;
+      case "suits":
+        this.ClickSuits();
+        break;
+      case "sweatshirts":
+        this.ClickSweatshirts();
+        break;
+      case "tshirts":
+        this.ClickTshirts();
+        break;
+    }
+    this.filter = "";
   }
 
   change_color(event: any, prod: Product) {

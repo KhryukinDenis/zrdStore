@@ -1,5 +1,5 @@
 <div class="body">
-  <app-header></app-header>
+  <app-header (onFilter)="filter_data($event)"></app-header>
   <app-nav
     (onClickJackets)="ClickJackets()"
     (onClickPants)="ClickPants()"

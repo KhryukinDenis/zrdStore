@@ -14,7 +14,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SpecialMenuComponent } from './components/special-menu/special-menu.component';
 import { HttpClientModule } from '@angular/common/http';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +29,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     RouterModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [BaseService],
   bootstrap: [AppComponent]

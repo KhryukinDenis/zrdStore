@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: `root`
 })
 export class BaseService {
 
@@ -12,32 +12,32 @@ export class BaseService {
 
   private url: string = "/api/products";
 
-  getHits() {
-    return this.http.get<Product[]>(this.url + '/hits').pipe();
+  getHits(filter: string) {
+    return this.http.post<Product[]>(this.url + `/hits`, filter).pipe();
   }
 
-  getJackets() {
-    return this.http.get<Product[]>(this.url + '/jackets').pipe();
+  getJackets(filter: string) {
+    return this.http.post<Product[]>(this.url + `/jackets`, filter).pipe();
   }
 
-  getPants() {
-    return this.http.get<Product[]>(this.url + '/pants').pipe();
+  getPants(filter: string) {
+    return this.http.post<Product[]>(this.url + `/pants`, filter).pipe();
   }
 
-  getSuits() {
-    return this.http.get<Product[]>(this.url + '/suits').pipe();
+  getSuits(filter: string) {
+    return this.http.post<Product[]>(this.url + `/suits`, filter).pipe();
   }
 
-  getTshirts() {
-    return this.http.get<Product[]>(this.url + '/tshirts').pipe();
+  getTshirts(filter: string) {
+    return this.http.post<Product[]>(this.url + `/tshirts`, filter).pipe();
   }
 
-  getSweatshirts() {
-    return this.http.get<Product[]>(this.url + '/sweatshirts').pipe();
+  getSweatshirts(filter: string) {
+    return this.http.post<Product[]>(this.url + `/sweatshirts`, filter).pipe();
   }
 
-  getAccessories() {
-    return this.http.get<Product[]>(this.url + '/accessories').pipe();
+  getAccessories(filter: string) {
+    return this.http.post<Product[]>(this.url + `/accessories`, filter).pipe();
   }
 
 
@@ -45,15 +45,15 @@ export class BaseService {
     return this.http.get<Product>(this.url + `/${type}/${id}`).pipe();
   }
 
-  addToCart(prod: Product){
-    return this.http.post<Product>(this.url + '/add', prod).pipe();
+  addToCart(prod: Product) {
+    return this.http.post<Product>(this.url + `/add`, prod).pipe();
   }
 
   getCart() {
-    return this.http.get<Product[]>(this.url + '/cart').pipe();
+    return this.http.get<Product[]>(this.url + `/cart`).pipe();
   }
 
   delFromCart(prod: Product) {
-    return this.http.post<Product>(this.url + '/delFromCart', prod).pipe();
+    return this.http.post<Product>(this.url + `/delFromCart`, prod).pipe();
   }
 }
