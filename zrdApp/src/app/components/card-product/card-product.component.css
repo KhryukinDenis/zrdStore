@@ -226,7 +226,6 @@ li {
 }
 
 @media only screen and (max-width: 480px) {
-
   .gal .mainphoto img {
     max-width: 80%;
   }

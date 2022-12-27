@@ -47,7 +47,6 @@ footer .container {
 }
 
 .container .logo img {
-
   max-width: 300px;
   position: absolute;
   margin: auto;
@@ -58,7 +57,6 @@ footer .container {
 }
 
 .container .nav {
-
   grid-column: 3;
 }
 
@@ -71,6 +69,7 @@ footer .container {
   font-family: 'Cormorant Unicase', serif;
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .container .nav li a:hover{
@@ -90,18 +89,16 @@ footer .container {
   font-family: 'Cormorant Unicase', serif;
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .container .about li a:hover{
   color: #E5E3E4;
 }
 
-
 /* ADAPTIVE */
 
-
 @media only screen and (max-width: 1200px) {
-
   footer {
     height: 155px;
   }
@@ -116,7 +113,6 @@ footer .container {
 }
 
 @media only screen and (max-width: 992px) {
-
   .container .photo img {
     max-height: 140px;
     margin-top: -10px;
@@ -142,7 +138,6 @@ footer .container {
 }
 
 @media only screen and (max-width: 770px) {
-
   footer .container {
     grid-template-columns: auto 25% 35% ;
   }
@@ -173,7 +168,6 @@ footer .container {
 }
 
 @media only screen and (max-width: 520px) {
-
   footer .container {
     grid-template-columns: auto 25% 40% ;
   }
@@ -185,14 +179,12 @@ footer .container {
 }
 
 @media only screen and (max-width: 490px) {
-
   footer {
     height: 180px;
   }
 }
 
 @media only screen and (max-width: 420px) {
-
   footer {
     width: 100%;
     height: 800px;

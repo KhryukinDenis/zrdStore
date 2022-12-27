@@ -6,6 +6,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent {
+
   @Output() onClickJackets = new EventEmitter();
   clickJackets() {
     this.onClickJackets.emit();

@@ -123,7 +123,6 @@ h2 a {
   max-width: 70%;
 }
 
-
 .secinfo p {
   font-size: 24px;
   font-family: 'Cormorant Unicase', serif;
@@ -159,8 +158,6 @@ h2 a {
 }
 
 
-
-
 /* ADAPTIVE */
 
 @media only screen and (max-width: 1450px) {
@@ -170,7 +167,6 @@ h2 a {
 }
 
 @media only screen and (max-width: 1200px) {
-
   .container {
     margin-top: 4.2%;
     grid-template-columns: 35% auto;
@@ -190,7 +186,6 @@ h2 a {
 }
 
 @media only screen and (max-width: 992px) {
-
   .container {
     grid-template-columns: 0% auto 0%;
     margin-top: 5.2%;
@@ -252,7 +247,6 @@ h2 a {
 }
 
 @media only screen and (max-width: 770px) {
-
   .container {
     margin-top: 3%;
   }
@@ -309,7 +303,6 @@ h2 a {
 }
 
 @media only screen and (max-width: 480px) {
-
   .container {
     margin-top: 10%;
   }

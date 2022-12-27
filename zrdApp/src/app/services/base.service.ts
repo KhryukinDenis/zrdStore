@@ -40,7 +40,6 @@ export class BaseService {
     return this.http.post<Product[]>(this.url + `/accessories`, filter).pipe();
   }
 
-
   getProduct(type: string, id: number) {
     return this.http.get<Product>(this.url + `/${type}/${id}`).pipe();
   }

@@ -15,11 +15,11 @@ function isEmpty(body) {
   return Object.keys(body).length === 0
 }
 
-app.post("/api/products/hits", bodyParser.text(),(req, res, next) => {
+app.post("/api/products/hits", bodyParser.text(), (req, res, next) => {
   let hits = require('./products/hits');
   if (!isEmpty(req.body))
     hits = filter_data(hits, req.body);
-  res.json();
+  res.json(hits);
 });
 
 app.post("/api/products/jackets", bodyParser.text(), (req, res, next) => {
@@ -75,7 +75,6 @@ app.get("/api/products/cart", (req, res, next) => {
   res.json(cartProducts);
 });
 
-
 app.post("/api/products/add", (req, res) => {
   cartProducts.push(req.body);
   res.json(req.body);
@@ -87,7 +86,6 @@ app.post("/api/products/delFromCart", (req, res) => {
     p.type === req.body.type), 1);
   res.json(req.body);
 });
-
 
 app.listen(3000, () => {
   console.log("Server running on port 3000");

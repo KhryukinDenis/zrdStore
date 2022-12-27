@@ -9,9 +9,11 @@ import { Observable } from 'rxjs';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent {
+
   constructor(private service: BaseService) { }
   filter: string = "";
   prods: Product[] = [];
+
   ngOnInit() {
     this.ClickHits();
   }
@@ -90,5 +92,4 @@ export class HomepageComponent {
   delFromCart(item: Product) {
     this.service.delFromCart(item).subscribe(s => console.log(`${s.name} deleted to cart`));
   }
-
 }
